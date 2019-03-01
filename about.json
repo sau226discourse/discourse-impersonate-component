@@ -1,5 +1,5 @@
 {
-  "name": "discourse-userswitch",
+  "name": "discourse-impersonate-component",
   "component": true,
   "license_url": "https://github.com/discourse-userswitch/discourse-impersonate-component/blob/master/LICENSE",
   "about_url": null,
