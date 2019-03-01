@@ -1,0 +1,14 @@
+<script type="text/x-handlebars" data-template-name="/connectors/user-profile-controls/impersonate">
+  <div class="pull-right">
+    {{#if model.active}}
+      {{#if model.can_impersonate}}
+        {{d-button
+          class="btn-danger"
+          action=(action "impersonate")
+          icon="crosshairs"
+          label="admin.impersonate.title"
+          title="admin.impersonate.help"}}
+      {{/if}}
+    {{/if}}
+  </div>
+</script>  
